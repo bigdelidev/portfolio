@@ -1,0 +1,598 @@
+$breakpoints: (
+  "xxsm":200px,
+  "xsm":400px,
+  "sm":600px,
+  "md":800px,
+  "lg":1000px,
+  "xl":1200px,
+  "xxl":1400px,
+
+);
+
+
+@mixin xxsm {
+  @media (max-width:map-get($breakpoints, "xxsm")) {
+    @content;
+  }
+}
+
+
+@mixin xsm {
+  @media (max-width:map-get($breakpoints, "xsm")) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width:map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width:map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+
+@mixin lg {
+  @media (max-width:map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+
+
+
+@mixin xl {
+  @media (max-width:map-get($breakpoints, "xl")) {
+    @content;
+  }
+}
+
+
+
+
+@mixin xxl {
+  @media (max-width:map-get($breakpoints, "xxl")) {
+    @content;
+  }
+}
+
+
+@mixin breakpoint($x: 0) {
+  @media (max-width:$x) {
+    @content;
+  }
+
+}
+
+
+
+body {
+  transition: 2s;
+}
+
+.header {
+  height: 70px;
+}
+
+.header {
+  button {
+    transition: 1s;
+    font-size: 25px;
+  }
+
+
+}
+
+
+
+.header {
+  button {
+
+    @include xl {
+      font-size: 20px;
+    }
+
+    @include md {
+      font-size: 15px;
+    }
+
+    @include sm {
+      font-size: 10px;
+    }
+
+  }
+}
+
+
+
+.header {
+
+  button:hover {
+
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    background: black;
+  }
+}
+
+
+
+
+.clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 45%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to left, black, white);
+  opacity: 0.4;
+}
+
+
+
+.clip-path {
+
+  @include xl {
+    clip-path: polygon(0 0, 100% 0, 100% 35%);
+  }
+
+  @include md {
+    clip-path: polygon(0 0, 100% 0, 100% 25%);
+  }
+
+}
+
+
+
+
+
+.introduction {
+  margin-top: 10vh;
+  gap: 50px;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+
+.visual {
+  font-size: 80px;
+
+  @include md {
+    font-size: 40px;
+  }
+
+}
+
+
+.impact {
+  font-size: 40px;
+
+  @include lg {
+    font-size: 30px;
+  }
+
+
+  @include md {
+    font-size: 20px;
+  }
+
+  @include sm {
+    font-size: 15px;
+  }
+}
+
+
+.whole-glass {
+  height: 65vh;
+  width: 55vh;
+}
+
+.inside {
+  height: 400px;
+  width: 400px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  border-radius: 10px;
+  border: solid 1px rgba(112, 110, 110, 0.1);
+  backdrop-filter: blur(3px);
+  z-index: 2;
+
+  @include sm {
+    width: 80%;
+  }
+}
+
+
+
+.inside {
+  p {
+    span:nth-child(2) {
+      color: rgb(2, 74, 18);
+    }
+  }
+
+}
+
+
+.scroll-class {
+  transition: 1s;
+  background: gray;
+}
+
+
+//SKILLS_____________________________________SECTION
+
+
+@mixin size {
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+
+  @include lg {
+    width: 100%;
+  }
+
+}
+
+
+@mixin icon {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background: gray;
+  border-radius: 20px;
+  color: white;
+
+
+}
+
+
+.skills-container {
+  width: 950px;
+  margin: 500px auto;
+  font-size: 22px;
+
+  @include xl {
+    width: 780px;
+  }
+
+  @include lg {
+    width: 580px;
+  }
+
+  @include md {
+    width: 380px;
+    font-size: 18px;
+  }
+
+  @include sm {
+    width: 160px;
+    font-size: 12px;
+  }
+
+  .line {
+    width: 1px;
+
+    @include lg {
+      visibility: hidden;
+    }
+  }
+
+
+  .skill-1 {
+
+
+    .js-icon {
+      @include icon;
+      transform: translateX(-50%);
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(-50%);
+
+
+      }
+
+
+
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+  .skill-2 {
+
+    .react-icon {
+      @include icon;
+      transform: translateX(50%);
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(50%);
+
+
+      }
+
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+
+  .skill-3 {
+
+
+    .redux-icon {
+      @include icon;
+      transform: translateX(-50%);
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(-50%);
+
+
+      }
+
+    }
+
+    div {
+
+      @include size;
+    }
+
+  }
+
+  .skill-4 {
+
+
+    .tailwind-icon {
+      @include icon;
+      transform: translateX(50%);
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+  .skill-5 {
+
+
+    .bootstrap-icon {
+      @include icon;
+      transform: translateX(-50%);
+
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(-50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+  .skill-6 {
+
+    .sass-icon {
+      @include icon;
+      transform: translateX(50%);
+
+
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+
+  .skill-7 {
+
+
+    .css-icon {
+      @include icon;
+      transform: translateX(-50%);
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(-50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+
+
+  .skill-8 {
+
+
+    .git-icon {
+      @include icon;
+      transform: translateX(50%);
+
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  .skill-9 {
+
+
+    .html-icon {
+      @include icon;
+      transform: translateX(-50%);
+
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(-50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+}
+
+
+
+
+//_____________________________________Project
+
+
+
+.project-heading {
+  text-shadow: 1px 1px 8px black;
+  color: white;
+}
+
+
+.project {
+  height: 400px;
+  width: 400px;
+
+  @include sm {
+    width: 80%;
+    height: 320px;
+  }
+
+  background:linear-gradient(-45deg, rgb(4, 47, 2) 50%, gray 10%);
+}
+
+.project-img {
+  width: 90%;
+}
+
+
+.project-content {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+}
+
+
+.close {
+  font-size: 50px;
+}
+
+
+.open {
+  background-color: white;
+  box-shadow: 0px 0px 10px 5px white;
+  opacity: 90%;
+}
+
+
+.project-details {
+  height: 550px;
+  width: 500px;
+  background: white;
+
+
+  @include md {
+    height: 500px;
+    width: 60%;
+  }
+
+}
+
+.technologies {
+
+  padding: 10px;
+
+  span:nth-child(n) {
+    background: rgb(0, 0, 0, 0.04);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    margin-right: 15px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+  }
+
+}
+
+
+//_______________________________________FOOTER
+
+
+.container {
+
+  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 400px;
+}
+
+.portfolio {
+  font-size: 30px;
+  padding: 20px;
+  height: auto;
+  width: 100%;
+
+  @include sm {
+    font-size: 20px;
+  }
+
+}
