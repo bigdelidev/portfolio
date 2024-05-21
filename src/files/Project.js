@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import restaurantProject from './image/restaurant project.png'
+import restaurantProject from './image/restaurant project.jpg'
 import { IoClose } from 'react-icons/io5'
 import { forwardRef } from 'react'
 
@@ -21,8 +21,8 @@ const Project = (props, ref) => {
     return (
         <>
             <h1 {...props} ref={ref} className='project-heading text-center'>Project</h1>
-            <div className='project rounded-4 ms-5 mt-5 d-flex flex-column align-items-center gap-4'>
-                <img src={restaurantProject} className='project-img rounded-4 mt-1' alt='restaurant' />
+            <div className='project rounded ms-5 mt-5 d-flex flex-column align-items-center gap-4'>
+                <img src={restaurantProject} className='project-img rounded mt-1' alt='restaurant' />
                 <h1 className='text-white'>fastfood shop</h1>
                 <button className='btn border-0'>
                     <h4 onClick={activate} className='open rounded px-2 pb-1'>open</h4>
@@ -39,8 +39,8 @@ const Project = (props, ref) => {
 
 
 
-                <div className='project-details rounded-4 d-flex flex-column align-items-center gap-4 text-center'>
-                    <img src={restaurantProject} className='project-img rounded-4 mt-1' alt='restaurant' />
+                <div className='project-details rounded d-flex flex-column align-items-center gap-4 text-center'>
+                    <img src={restaurantProject} className='project-img rounded mt-1' alt='restaurant' />
                     <div><h2>about</h2> This is a project which it is possible to order fastfood items and
                         increase or decrease items quantity using the power of redux-js in the sidebar section. </div>
 

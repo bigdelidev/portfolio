@@ -286,13 +286,13 @@ body {
   .skill-1 {
 
 
-    .js-icon {
+    .react-icon {
       @include icon;
-      transform: translateX(-50%);
+      transform: translateX(50%);
 
       @include lg {
 
-        transform: translateY(-170%) translateX(-50%);
+        transform: translateY(-170%) translateX(50%);
 
 
       }
@@ -309,13 +309,13 @@ body {
 
   .skill-2 {
 
-    .react-icon {
+    .js-icon {
       @include icon;
-      transform: translateX(50%);
+      transform: translateX(-50%);
 
       @include lg {
 
-        transform: translateY(-170%) translateX(50%);
+        transform: translateY(-170%) translateX(-50%);
 
 
       }
@@ -332,13 +332,13 @@ body {
   .skill-3 {
 
 
-    .redux-icon {
+    .ts-icon {
       @include icon;
-      transform: translateX(-50%);
+      transform: translateX(50%);
 
       @include lg {
 
-        transform: translateY(-170%) translateX(-50%);
+        transform: translateY(-170%) translateX(50%);
 
 
       }
@@ -355,31 +355,9 @@ body {
   .skill-4 {
 
 
-    .tailwind-icon {
-      @include icon;
-      transform: translateX(50%);
-
-      @include lg {
-
-        transform: translateY(-170%) translateX(50%);
-
-
-      }
-    }
-
-    div {
-
-      @include size;
-    }
-  }
-
-  .skill-5 {
-
-
-    .bootstrap-icon {
+    .redux-icon {
       @include icon;
       transform: translateX(-50%);
-
 
       @include lg {
 
@@ -395,17 +373,39 @@ body {
     }
   }
 
-  .skill-6 {
+  .skill-5 {
 
-    .sass-icon {
+
+    .tailwind-icon {
       @include icon;
       transform: translateX(50%);
-
 
 
       @include lg {
 
         transform: translateY(-170%) translateX(50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+  .skill-6 {
+
+    .bootstrap-icon {
+      @include icon;
+      transform: translateX(-50%);
+
+
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(-50%);
 
 
       }
@@ -421,13 +421,13 @@ body {
   .skill-7 {
 
 
-    .css-icon {
+    .sass-icon {
       @include icon;
-      transform: translateX(-50%);
+      transform: translateX(50%);
 
       @include lg {
 
-        transform: translateY(-170%) translateX(-50%);
+        transform: translateY(-170%) translateX(50%);
 
 
       }
@@ -444,14 +444,14 @@ body {
   .skill-8 {
 
 
-    .git-icon {
+    .css-icon {
       @include icon;
-      transform: translateX(50%);
+      transform: translateX(-50%);
 
 
       @include lg {
 
-        transform: translateY(-170%) translateX(50%);
+        transform: translateY(-170%) translateX(-50%);
 
 
       }
@@ -474,6 +474,27 @@ body {
 
   .skill-9 {
 
+    .git-icon {
+      @include icon;
+      transform: translateX(50%);
+
+
+      @include lg {
+
+        transform: translateY(-170%) translateX(50%);
+
+
+      }
+    }
+
+    div {
+
+      @include size;
+    }
+  }
+
+  .skill-10 {
+
 
     .html-icon {
       @include icon;
@@ -493,6 +514,8 @@ body {
       @include size;
     }
   }
+
+
 }
 
 

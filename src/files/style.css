@@ -155,18 +155,18 @@ body {
     visibility: hidden;
   }
 }
-.skills-container .skill-1 .js-icon {
+.skills-container .skill-1 .react-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(-50%);
+  transform: translateX(50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-1 .js-icon {
-    transform: translateY(-170%) translateX(-50%);
+  .skills-container .skill-1 .react-icon {
+    transform: translateY(-170%) translateX(50%);
   }
 }
 .skills-container .skill-1 div {
@@ -179,18 +179,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-2 .react-icon {
+.skills-container .skill-2 .js-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(50%);
+  transform: translateX(-50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-2 .react-icon {
-    transform: translateY(-170%) translateX(50%);
+  .skills-container .skill-2 .js-icon {
+    transform: translateY(-170%) translateX(-50%);
   }
 }
 .skills-container .skill-2 div {
@@ -203,18 +203,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-3 .redux-icon {
+.skills-container .skill-3 .ts-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(-50%);
+  transform: translateX(50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-3 .redux-icon {
-    transform: translateY(-170%) translateX(-50%);
+  .skills-container .skill-3 .ts-icon {
+    transform: translateY(-170%) translateX(50%);
   }
 }
 .skills-container .skill-3 div {
@@ -227,18 +227,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-4 .tailwind-icon {
+.skills-container .skill-4 .redux-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(50%);
+  transform: translateX(-50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-4 .tailwind-icon {
-    transform: translateY(-170%) translateX(50%);
+  .skills-container .skill-4 .redux-icon {
+    transform: translateY(-170%) translateX(-50%);
   }
 }
 .skills-container .skill-4 div {
@@ -251,18 +251,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-5 .bootstrap-icon {
+.skills-container .skill-5 .tailwind-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(-50%);
+  transform: translateX(50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-5 .bootstrap-icon {
-    transform: translateY(-170%) translateX(-50%);
+  .skills-container .skill-5 .tailwind-icon {
+    transform: translateY(-170%) translateX(50%);
   }
 }
 .skills-container .skill-5 div {
@@ -275,18 +275,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-6 .sass-icon {
+.skills-container .skill-6 .bootstrap-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(50%);
+  transform: translateX(-50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-6 .sass-icon {
-    transform: translateY(-170%) translateX(50%);
+  .skills-container .skill-6 .bootstrap-icon {
+    transform: translateY(-170%) translateX(-50%);
   }
 }
 .skills-container .skill-6 div {
@@ -299,18 +299,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-7 .css-icon {
+.skills-container .skill-7 .sass-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(-50%);
+  transform: translateX(50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-7 .css-icon {
-    transform: translateY(-170%) translateX(-50%);
+  .skills-container .skill-7 .sass-icon {
+    transform: translateY(-170%) translateX(50%);
   }
 }
 .skills-container .skill-7 div {
@@ -323,18 +323,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-8 .git-icon {
+.skills-container .skill-8 .css-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(50%);
+  transform: translateX(-50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-8 .git-icon {
-    transform: translateY(-170%) translateX(50%);
+  .skills-container .skill-8 .css-icon {
+    transform: translateY(-170%) translateX(-50%);
   }
 }
 .skills-container .skill-8 div {
@@ -347,18 +347,18 @@ body {
     width: 100%;
   }
 }
-.skills-container .skill-9 .html-icon {
+.skills-container .skill-9 .git-icon {
   width: 60px;
   height: 60px;
   padding: 10px;
   background: gray;
   border-radius: 20px;
   color: white;
-  transform: translateX(-50%);
+  transform: translateX(50%);
 }
 @media (max-width: 1000px) {
-  .skills-container .skill-9 .html-icon {
-    transform: translateY(-170%) translateX(-50%);
+  .skills-container .skill-9 .git-icon {
+    transform: translateY(-170%) translateX(50%);
   }
 }
 .skills-container .skill-9 div {
@@ -368,6 +368,30 @@ body {
 }
 @media (max-width: 1000px) {
   .skills-container .skill-9 div {
+    width: 100%;
+  }
+}
+.skills-container .skill-10 .html-icon {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background: gray;
+  border-radius: 20px;
+  color: white;
+  transform: translateX(-50%);
+}
+@media (max-width: 1000px) {
+  .skills-container .skill-10 .html-icon {
+    transform: translateY(-170%) translateX(-50%);
+  }
+}
+.skills-container .skill-10 div {
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+}
+@media (max-width: 1000px) {
+  .skills-container .skill-10 div {
     width: 100%;
   }
 }

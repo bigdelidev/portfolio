@@ -10,7 +10,7 @@ const Header = () => {
 
     window.addEventListener('scroll', scrollFnc);
     function scrollFnc() {
-        if (window.scrollY > window.innerHeight / 2 && window.scrollY < window.innerHeight * 4) {
+        if (window.scrollY > window.innerHeight / 2 && window.scrollY < window.innerHeight * 5) {
             document.body.classList.add('scroll-class');
         } else {
             document.body.classList.remove('scroll-class');
@@ -86,8 +86,8 @@ const Header = () => {
                     <div className="inside position-absolute">
                         <p><span className="d-flex justify-content-center mt-4">Hello,I'm Moein</span>
                             <span className="d-flex justify-content-center  display-3 text-center"><br /> front-end dev</span>
-                            <span className="d-flex justify-content-center mt-5 text-center ">I have almost two years experince in
-                                front-end development.I enjoy making new web apps and pushing the limits of creativity.
+                            <span className="d-flex justify-content-center mt-5 text-center ">I am reactjs developer and 
+                            I make responsive web apps.I enjoy making new projects and pushing the limits of creativity.
                             </span>
                         </p>
                     </div>

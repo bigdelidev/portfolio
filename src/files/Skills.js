@@ -2,7 +2,7 @@ import { forwardRef } from "react";
 import { DiJavascript1 } from 'react-icons/di'
 import { FaReact, FaBootstrap, FaSass } from 'react-icons/fa'
 import { FaGit } from "react-icons/fa6";
-import { BiLogoRedux, BiLogoTailwindCss, BiLogoCss3, BiLogoHtml5 } from 'react-icons/bi'
+import { BiLogoRedux, BiLogoTailwindCss,BiLogoTypescript ,BiLogoCss3, BiLogoHtml5 } from 'react-icons/bi'
 
 
 const Skills = (props, ref) => {
@@ -13,24 +13,12 @@ const Skills = (props, ref) => {
         <div className="line bg-white position-absolute start-50 translate-middle-x h-100"></div>
 
 
-        <div className="skill-1 d-flex align-items-center">
-          <div className='bg-white rounded d-flex align-items-center'
-            data-aos='fade-right'
-            data-aos-duratinon='1500'>
-            enough knowledge about js logics allows me
-            to write more acceptable code to achieve my goals.
-            I pay attention to understanding diffrent situations when using js methods.
-          </div>
-
-
-          <DiJavascript1 className='js-icon position-absolute start-50' />
-        </div>
 
 
 
 
-        <div className="d-flex justify-content-end mt-5 ">
-          <div className="skill-2  d-flex align-items-center "
+        <div className="d-flex justify-content-end  ">
+          <div className="skill-1  d-flex align-items-center "
           >
             <div className='bg-white rounded d-flex align-items-center'
               data-aos='fade-left'
@@ -47,13 +35,51 @@ const Skills = (props, ref) => {
 
 
 
-        <div className="skill-3 d-flex align-items-center mt-5">
+
+
+        <div className="skill-2 d-flex align-items-center mt-5">
+          <div className='bg-white rounded d-flex align-items-center'
+            data-aos='fade-right'
+            data-aos-duratinon='1500'>
+            enough knowledge about js logics allows me
+            to write more acceptable code to achieve my goals.
+            I pay attention to understanding diffrent situations when using js methods.
+          </div>
+
+
+          <DiJavascript1 className='js-icon position-absolute start-50' />
+        </div>
+
+
+
+
+              
+
+        <div className="d-flex justify-content-end mt-5">
+          <div className="skill-3 d-flex align-items-center">
+            <div className='bg-white rounded d-flex align-items-center'
+              data-aos='fade-left'
+              data-aos-duratinon='1500'>
+              Typescript  helps me to show the behavior of 
+              my code and variables in javascript. It is great for teamwork 
+              and it accelerates the speed in development of a project.
+            </div>
+
+
+            <BiLogoTypescript className='ts-icon position-absolute end-50' />
+          </div>
+        </div>
+
+
+
+
+        <div className="skill-4 d-flex align-items-center mt-5">
           <div className='bg-white rounded d-flex align-items-center'
             data-aos='fade-right'
             data-aos-duratinon='1500'>
             I've used redux in my restaurant project. Javascript code inside its action creators are important.
             Actually it is better to use redux in big projects rather than
-            using react useReducer hook.
+            using context api.
           </div>
 
           <BiLogoRedux className='redux-icon position-absolute start-50' />
@@ -65,11 +91,11 @@ const Skills = (props, ref) => {
 
 
         <div className="d-flex justify-content-end mt-5">
-          <div className="skill-4 d-flex align-items-center">
+          <div className="skill-5 d-flex align-items-center">
             <div className='bg-white rounded d-flex align-items-center'
               data-aos='fade-left'
               data-aos-duratinon='1500'>
-              This css library provides many classes. I use tailwind-css to style html tags
+              This css framework provides many classes. I use tailwindcss to style html tags
               faster and in a way that is easier to understand.
             </div>
 
@@ -84,7 +110,7 @@ const Skills = (props, ref) => {
 
 
 
-        <div className="skill-5 d-flex align-items-center mt-5">
+        <div className="skill-6 d-flex align-items-center mt-5">
           <div className='bg-white rounded d-flex align-items-center'
             data-aos='fade-right'
             data-aos-duratinon='1500'>
@@ -99,7 +125,7 @@ const Skills = (props, ref) => {
 
 
         <div className="d-flex justify-content-end mt-5">
-          <div className="skill-6 d-flex align-items-center">
+          <div className="skill-7 d-flex align-items-center">
             <div className='bg-white rounded d-flex align-items-center'
               data-aos='fade-left'
               data-aos-duratinon='1500'>
@@ -113,7 +139,7 @@ const Skills = (props, ref) => {
 
 
 
-        <div className="skill-7 d-flex align-items-center mt-5">
+        <div className="skill-8 d-flex align-items-center mt-5">
           <div className='bg-white rounded d-flex align-items-center'
             data-aos='fade-right'
             data-aos-duratinon='1500'>
@@ -126,7 +152,7 @@ const Skills = (props, ref) => {
 
 
         <div className="d-flex justify-content-end mt-5">
-          <div className="skill-8 d-flex align-items-center">
+          <div className="skill-9 d-flex align-items-center">
             <div className='bg-white rounded d-flex align-items-center'
               data-aos='fade-left'
               data-aos-duratinon='1500'>
@@ -140,12 +166,12 @@ const Skills = (props, ref) => {
 
 
 
-        <div className="skill-9 d-flex align-items-center mt-5">
+        <div className="skill-10 d-flex align-items-center mt-5">
           <div className='bg-white rounded d-flex align-items-center'
             data-aos='fade-right'
             data-aos-duratinon='1500'>
-            Imporoving my skills in pure css and understanding the complex relations between positioning items and
-            flexbox and text content in css are my effort in my css journey.
+            Html as a markup language helps me to find out what to do in next steps and 
+            understand the code structure.
           </div>
           <BiLogoHtml5 className='html-icon position-absolute start-50' />
         </div>
